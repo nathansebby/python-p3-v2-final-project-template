@@ -39,7 +39,7 @@ def manage_teams():
             break
         else:
             print("Invalid choice. Please try again.")
-            pass
+            
 
 def manage_jerseys():
     while True:
