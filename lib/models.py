@@ -41,7 +41,7 @@ class Team:
         c.execute('SELECT * FROM teams')
         teams = c.fetchall()
         conn.close()
-        return teams
+        return 
 
     @staticmethod
     def find_by_id(team_id):
