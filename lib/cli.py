@@ -2,7 +2,7 @@ from lib.models import Team, Jersey
 
 def main_menu():
     while True:
-        print("\nMain Menu")
+        print("Main Menu")
         print("1. Manage Teams")
         print("2. Manage Jerseys")
         print("3. Exit")
@@ -19,7 +19,7 @@ def main_menu():
 
 def manage_teams():
     while True:
-        print("\nTeam Menu")
+        print("Team Menu")
         print("1. Create Team")
         print("2. View All Teams")
         print("3. Find Team by ID")
@@ -38,12 +38,12 @@ def manage_teams():
         elif choice == '5':
             break
         else:
-            print("Invalid choice. Please try again.")
+            print("Invalid choice. kindly choose what is available!.")
             
 
 def manage_jerseys():
     while True:
-        print("\nJersey Menu")
+        print("Jersey Menu")
         print("1. Create Jersey")
         print("2. View All Jerseys")
         print("3. Find Jersey by ID")
@@ -111,7 +111,7 @@ def find_jersey_by_id():
     if jersey:
         print(jersey)
     else:
-        print("Jersey not found.")
+        print("Jersey not Found.")
 
 def delete_jersey():
     jersey_id = input("Enter jersey ID: ")

@@ -6,5 +6,5 @@ if __name__ == "__main__":
     Team.create_table()
     Jersey.create_table()
     
-    print("\nWelcome to the Team!")
+    
     main_menu()
