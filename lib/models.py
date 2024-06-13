@@ -76,7 +76,7 @@ class Jersey:
         c.execute('''
             CREATE TABLE IF NOT EXISTS jerseys (
                 id INTEGER PRIMARY KEY,
-                player_name ,
+                player_name TEXT,
                 number INTEGER,
                 size TEXT,
                 color TEXT,
