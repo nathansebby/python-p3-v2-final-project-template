@@ -5,7 +5,7 @@ class Team:
         self.id = id
         self.name = name
         self.city = city
-        self.mascot = mascot
+        self.mascot = 
 
     @staticmethod
     def create_table():
