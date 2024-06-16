@@ -10,4 +10,6 @@ My application has various functionalities e.g You can Manage the teams by
   which is also applicable in managing there Jerseys .
 
   To gain accessability run pythob3 main.py
+
+  # NB:helpers. .. not used !
   
